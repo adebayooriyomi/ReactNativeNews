@@ -2,7 +2,7 @@
 
 A News Headlines Application built using React Native (iOS & Android)
 
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/adebayooriyomi/NewsAppRN/blob/master/images/screenshots.jpg"><img src="https://github.com/adebayooriyomi/NewsAppRN/blob/master/images/screenshots.jpg" alt="screenshots of NewsApp" style="max-width:100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://www.oriyomiadebayo.com"><img src="https://www.oriyomiadebayo.com/img/projects/reactnativeProject.jpg" alt="screenshots of NewsApp" style="max-width:100%;"></a></p>
 
 <h2>Features</h2>
 <ul>
