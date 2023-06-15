@@ -1,13 +1,9 @@
 import React from 'react';
-import { FlatList, View, ImageBackground, ActivityIndicator, TouchableOpacity } from 'react-native';
+import { FlatList, View, ImageBackground, TouchableOpacity } from 'react-native';
 import { Box, Heading, AspectRatio, Stack } from 'native-base';
 
 
 function Category ({navigation}) {
-
-  // static navigationOptions = ({navigation, navigationOptions}) => ({
-	//  title: 'Category',
-  // });
 
   const newsList = [
       {
@@ -55,22 +51,14 @@ function Category ({navigation}) {
       style={{flex: 1, margin:5}}
       onPress={() => navigation.navigate('Selected Category', {title: item.title})}
       >
-        <Box rounded="lg" overflow="hidden" borderColor="coolGray.200" borderWidth="1" _dark={{
-            borderColor: "coolGray.600",
-          backgroundColor: "gray.700"
-            }} _web={{
-              shadow: 2,
-              borderWidth: 0
-            }} _light={{
-              backgroundColor: "gray.50"
-            }}>
+        <Box rounded="lg" overflow="hidden" borderColor="coolGray.200" borderWidth="1" backgroundColor="white">
             <Box>
-              <AspectRatio w="100%" ratio={16 / 9}>
+              <AspectRatio w="100%">
                 <ImageBackground source={item.image} alt="image" />
               </AspectRatio>
             </Box>
-            <Stack p="4" space={3}>
-              <Stack space={2}>
+            <Stack p="4">
+              <Stack>
                 <Heading size="sm" ml="-1">
                 {item.title}
                 </Heading>
