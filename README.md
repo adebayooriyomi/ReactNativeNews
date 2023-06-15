@@ -22,8 +22,8 @@ A News Headlines Application built using React Native (iOS & Android)
 </ul>
 
 <h2>Setup Instructions</h2>
-<pre><code>git clone https://github.com/adebayooriyomi/NewsAppRN
-cd NewsAppRN
+<pre><code>git clone https://github.com/adebayooriyomi/ReactNativeNews.git
+cd ReactNativeNews
 npm install
 react-native run-android
 cd ios
